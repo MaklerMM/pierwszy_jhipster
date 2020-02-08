@@ -82,9 +82,9 @@ public class PierwszyjhipsterApp {
         }
         log.info("\n----------------------------------------------------------\n\t" +
                 "Application '{}' is running! Access URLs:\n\t" +
-                "Local: \t\t{}://localhost:{}{}\n\t" +
-                "External: \t{}://{}:{}{}\n\t" +
-                "Profile(s): \t{}\n----------------------------------------------------------",
+                "Localek: \t\t{}://localhost:{}{}\n\t" +
+                "Externalek: \t{}://{}:{}{}\n\t" +
+                "Profilek(s): \t{}\n----------------------------------------------------------",
             env.getProperty("spring.application.name"),
             protocol,
             serverPort,
